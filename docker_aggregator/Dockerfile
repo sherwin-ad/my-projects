@@ -32,9 +32,14 @@ EXPOSE 80
 # Copy site into place.
 ADD aggregator /var/www/html
 
+
+
 # Change ownership and permisions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+
+# Install project dependencies
+RUN composer install
 
 # RUN chown -R www-data:www-data /var/www/aggregator
 # RUN chmod -R 775 /var/www/aggregator
