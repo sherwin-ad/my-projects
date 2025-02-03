@@ -16,6 +16,7 @@ RUN apt-get install -y \
     php-mbstring \
     php-xml \
     php-tokenizer \
+    mysql-client \
     php-zip \
     composer
     
@@ -35,13 +36,16 @@ COPY ./ssl /etc/apache2/ssl
 COPY ./public_html /var/www/html
 
 # Change ownership and permisions
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
-RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+RUN chown -R www-data:www-data /var/www/html /var/www/html/storage /var/www/html/bootstrap/cache
+RUN chmod -R 775 /var/www/html /var/www/html/storage /var/www/html/bootstrap/cache
 
 WORKDIR /var/www/html
 
 # Install project dependencies
 RUN composer install
+RUN php artisan make:migration mydatabase
+RUN php artisan migrate
+RUN php artisan db:seed
 
 # Expose port 80 to the outside world
 EXPOSE 80
