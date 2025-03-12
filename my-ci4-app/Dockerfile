@@ -7,9 +7,10 @@ RUN apt-get upgrade -y
 
 RUN apt-get install --fix-missing -y libpq-dev  
 RUN apt-get install --no-install-recommends -y libpq-dev 
-RUN apt-get install -y libxml2-dev libbz2-dev zlib1g-dev libpng-dev
-RUN docker-php-ext-install intl gd
+RUN apt-get install -y libxml2-dev libbz2-dev zlib1g-dev libpng-dev 
+RUN docker-php-ext-install intl gd mysqli
 RUN apt-get -y install --fix-missing zip unzip
+RUN apt-get install default-mysql-client -y
 
 
 # Enable Apache rewrite module
@@ -29,8 +30,8 @@ RUN composer self-update
 # RUN composer install --no-dev --optimize-autoloader
 
 # Set permissions for writable directory
-RUN chown -R www-data:www-data
-RUN chmod -R 0777 writable
+RUN chown -R www-data:www-data /var/www/html
+RUN chmod -R 777 /var/www/html/writable
 
 # Expose port 80
 EXPOSE 80
