@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  apache-php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src/wordpress:/var/www/html
+    depends_on:
+      - mysql
+    restart: always
+
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL-ROOT-PASSWORD}
+      MYSQL_DATABASE: ${MYSQL-DATABASE}
+      MYSQL_USER: ${MYSQL-USER}
+      MYSQL_PASSWORD: ${MYSQL-PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: always
+
+volumes:
+  mysql_data:
