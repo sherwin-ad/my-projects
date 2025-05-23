@@ -1,0 +1,21 @@
+ul.category-list {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+ul.category-list li {
+    padding: 20px;
+    border: 1px solid #eee;
+}
+ul.category-list li a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+}
+ul.category-list li  {
+    background: linear-gradient(90deg, #06984B 0%, #00DE6C 100%), var(--GREEN-100, #00984B);
+    border-radius:5px;
+    display:block;
+}

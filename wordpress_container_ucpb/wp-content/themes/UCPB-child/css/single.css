@@ -1,0 +1,211 @@
+.single button.owl-prev {
+    position: absolute;
+    left: 32%;
+    top: 40%;
+     background: #00000096 !important;
+    /* padding: 2rem !important; */
+    width: 40px;
+    height: 40px;
+    border-radius: 43px !important;
+}
+ button.owl-prev svg ,
+  button.owl-next svg {
+    fill: #fff !important;
+    position: static;
+    margin: unset;
+    transform: scale(.5);
+}
+button.owl-next, button.owl-prev {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.gallery:hover button.owl-next,
+.gallery:hover button.owl-prev {
+    opacity: 1;
+}
+
+
+.single button.owl-next {
+    position: absolute;
+    right: 33%;
+    top: 40%;
+           background: #00000096 !important;
+    /* padding: 2rem !important; */
+    width: 40px;
+    height: 40px;
+    border-radius: 43px !important;
+}
+.full-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+figure.gallery-item {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    padding: 0 4rem;
+}
+section.branches {
+    padding-bottom: 2rem;
+}
+.single-news-events .entry-content img {
+    margin: 2rem 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+figure.gallery-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+div#gallery-1 {
+    display: flex
+;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    270deg,
+    rgba(23, 163, 81, 0) 0%,
+    var(--GREEN-100, rgba(0, 152, 75, 0.42)) 100%
+  );
+}
+
+.banner-content {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.post-content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+header.entry-header h1 {
+  color: var(--GREEN-100, #00984b);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+}
+header p.date {
+  color: var(--DARK-BLUE-80, #444058);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+.entry-content {
+  margin-top: 3rem;
+}
+header hr {
+  background: linear-gradient(90deg, #00de6c 0%, #06984b 100%),
+    var(--GREEN-100, #00984b);
+  width: 216px;
+  height: 18px;
+  border: unset;
+  margin: 0 auto;
+  text-align: center;
+}
+.entry-content img {
+  margin: 2rem 0;
+}
+/* For non-single-news-events and non-single-branches pages */
+body:not(.single-news-events):not(.single-branches) header.entry-header h1,
+body:not(.single-news-events):not(.single-branches) header hr {
+  text-align: left;
+}
+body:not(.single-news-events):not(.single-branches) header.entry-header h1 {
+  margin-top: 30px;
+}
+body:not(.single-news-events):not(.single-branches) header hr {
+  margin: 20px 0;
+}
+
+.sinlge-content a.highlight-link[href$=".pdf"]::before {
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 37px;
+  background: url("https://ucpb.beesites.net/wp-content/uploads/2025/03/bi_file-pdf-fill.png")
+    no-repeat center;
+  margin-right: 8px; /* Adds space between icon and link */
+}
+.sinlge-content .highlight-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--BMB-Accent, #35555b);
+    text-align: left;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid var(--Border, #d9d9d9);
+    padding: 0.5rem;
+    margin: .6rem 0;
+}
+.sinlge-content a.btn-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--BMB-Accent, #fff);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: .5rem 0;
+    background: linear-gradient(90deg, rgba(6, 152, 75, 0) 0%, #00de6c 100%), #17a351;
+    padding: 0.8rem 3rem;
+}
+.sinlge-content h2 {
+  font-size: 28px;
+}
+.sinlge-content h3 {
+  font-size: 22px;
+}
+table.custom-table td,
+table.full-widht td {
+  text-align: center;
+}
+table.full-widht tr td img {
+    width: 100%;
+}
+
+table.full-widht {
+    width: 60% !important;
+    margin: auto;
+}
+table.full-widht tr td {
+    padding: 0 20px;
+}

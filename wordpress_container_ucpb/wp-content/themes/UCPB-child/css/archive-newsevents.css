@@ -1,0 +1,300 @@
+.content-area {
+  overflow-x: unset;
+  margin: 5rem 0;
+}
+.column-grp .search-arhive .filter-sidebar {
+  border-radius: 30px;
+  background: linear-gradient(222deg, #00de6c 12.45%, #06984b 88.09%);
+  width: 100%;
+  max-width: clamp(
+    300px,
+    90%,
+    700px
+  ); /* Dynamic width: min 300px, 90% of container, max 900px */
+  padding: 2rem;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for better aesthetics */
+  color: #fff; /* Ensures text inside is readable */
+}
+.search-arhive .searchandfilter ul {
+  padding: 0;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 600px) {
+  .search-arhive .filter-sidebar {
+    padding: 1rem; /* Reduce padding for smaller devices */
+    border-radius: 20px; /* Slightly smaller border radius */
+  }
+}
+
+/* Example for content inside the sidebar */
+.search-arhive .filter-sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.search-arhive .filter-sidebar p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.search-arhive .searchandfilter label {
+  width: 100%;
+}
+.search-arhive input.sf-input-text {
+  width: 100%;
+}
+.search-arhive input.sf-input-text {
+  width: 95%;
+  border: unset;
+  border-radius: 10px;
+  border: 1px solid var(--DARK-BLUE-20, #d0cfd5);
+  background: var(--WHITE, #fff);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.search-arhive {
+  margin-top: 6rem;
+}
+
+.search-arhive
+  li.sf-field-taxonomy-region
+  .chosen-container.chosen-container-single {
+  width: 100% !important;
+}
+.search-arhive .chosen-container-single .chosen-single {
+  border: unset;
+  border-radius: 10px;
+  border: 1px solid var(--DARK-BLUE-20, #d0cfd5);
+  background: var(--WHITE, #fff);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.branches .container {
+  position: relative;
+  z-index: 1;
+}
+
+.branches h2 {
+  margin-bottom: 5rem;
+  color: #fbda03;
+  text-align: center;
+}
+
+.branches .column-grp {
+  justify-content: center;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.branches .branche {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.branches .branche .programimg {
+  display: block;
+  position: relative;
+}
+
+.branches .branche .programimg span {
+  background: rgba(39, 217, 69, 0.397);
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 3rem 3rem 0 0;
+  -moz-border-radius: 3rem 3rem 0 0;
+  -webkit-border-radius: 3rem 3rem 0 0;
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+header.archive-header hr {
+  background: linear-gradient(90deg, #00de6c 0%, #06984b 100%),
+    var(--GREEN-100, #00984b);
+  width: 216px;
+  height: 18px;
+  border: unset;
+  margin: 0 0 2rem;
+}
+h2.archive-title {
+  color: var(--GREEN, #17a351);
+  font-family: "Work Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  margin: 5rem 0 0;
+}
+section.branches {
+  padding-top: 2rem;
+}
+.branches .branche .programimg span svg {
+  display: block;
+}
+
+.branches .branche:hover .programimg span {
+  opacity: 1;
+}
+
+.branches .wrapper {
+  background: #fff;
+  border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  height: 100%;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.branches h3 {
+  color: var(--GREEN, #17a351);
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+.branches img {
+  border-radius: 3rem 3rem 0 0;
+  -moz-border-radius: 3rem 3rem 0 0;
+  -webkit-border-radius: 3rem 3rem 0 0;
+  display: block;
+  width: 100%;
+}
+
+.branches .wrap {
+  text-align: left;
+  border-radius: 0 0 3rem 3rem;
+  -moz-border-radius: 0 0 3rem 3rem;
+  -webkit-border-radius: 0 0 3rem 3rem;
+}
+
+.branches .wrap header {
+  background: #fbda03;
+  padding: 2rem 3rem;
+}
+
+.branches .wrap header span {
+  font-weight: 700;
+  color: #1e95ad;
+  display: block;
+  margin-top: 0.75rem;
+}
+
+.branches .wrap h4 {
+  font-size: 2rem;
+  color: #f26b26;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.branches .wrap h4 a {
+  color: #f26b26;
+  text-decoration: none;
+}
+
+.branches .wrap div {
+  padding: 0 2rem 2rem;
+}
+
+.branches .wrap div .btn {
+  color: var(--GREEN, #17a351);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 20px */
+  letter-spacing: -0.48px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.branches .curves {
+  z-index: 0;
+  position: absolute;
+  bottom: -0.1rem;
+  left: 0;
+  width: 100%;
+}
+
+.branches .owl-carousel .owl-dots button.owl-dot {
+  border: 0.1rem solid #fbda03;
+}
+
+.branches .owl-carousel .owl-dots button.owl-dot.active {
+  background: #fbda03;
+}
+.pagination-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.pagination-list li {
+    display: inline;
+}
+
+.pagination-list a,
+.pagination-list span {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+}
+.pagination-list .current {
+    background-color: var(--GREEN, #17a351);
+    color: white;
+    border: 1px solid var(--GREEN, #17a351);
+}
+
+@media (min-width: 992px) {
+  .branches .branches-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: -1.5rem;
+    gap: 30px;
+  }
+
+  .branches .branche {
+    width: 31.3333%;
+    padding: 0;
+  }
+}

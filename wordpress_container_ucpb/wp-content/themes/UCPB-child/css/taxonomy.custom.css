@@ -1,0 +1,192 @@
+	/* Style the tab */
+    .tab {
+        overflow: hidden;
+        /* border: 1px solid #ccc;
+        background-color: #f1f1f1; */
+      }
+      
+      /* Style the buttons inside the tab */
+      .tab button {
+        background: linear-gradient(45deg,rgb(59, 160, 110),rgb(30, 131, 80));
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        color: #fff;
+        
+      }
+      
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+        background: linear-gradient(45deg,rgb(59, 160, 110), #00ed75);
+      }
+      
+      /* Create an active/current tablink class */
+      .tab button.active {
+        background: linear-gradient(45deg, #00984b, #00ed75);
+      }
+      
+      /* Style the tab content */
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+      }
+      /* adding customize row style */
+      .row-sale {
+          display: flex
+      ;
+          align-items: flex-start;
+          flex-wrap: nowrap;
+          gap: 50px;
+      }
+      /* style for forms */
+      form {
+          padding: 5px;
+          border-radius: 10px;
+      }
+      li.sf-field-submit {
+    width: 100%;
+    text-align: right;
+}
+      .col.form-search-col   form ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+        padding: 0;
+}
+select.sf-input-select {
+    border-radius: 5px;
+    border-color: #fff;
+}
+      .col.form-search-col {
+    border-radius: 30px;
+    background: linear-gradient(222deg, #00de6c 12.45%, #06984b 88.09%);
+    width: 100%;
+    padding: 1rem;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.result_item .row {
+
+    flex-direction: column;
+}
+.result_item .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+      form ul {
+          padding: 0 15px;
+          margin: 0;
+      }
+      form li select {
+          padding: 10px;
+          border: none;
+          width: 404px;
+      }
+      form li > input[type="submit"]:hover {
+          background: linear-gradient(45deg, #30ed8e, #009349);
+      }
+      
+     form li > input[type="submit"] {
+    padding: 15px 44px;
+    border: none;
+    background: #17A351;
+    color: #fff;
+    border-raduis:5px
+}
+      .col:first-child {
+          margin-top: 18px;
+      }
+      h1.archive-title,
+      h1.search_result_title {
+          text-align: left;
+          font-size: 36px;
+          color: #00984b;
+          font-weight: 700;
+          margin: 1rem 0;
+      }
+      .result_content {
+    width: 30%;
+}
+      hr {
+          background: linear-gradient(90deg, #00de6c 0%, #06984b 100%), var(--GREEN-100, #00984b);
+          width: 216px;
+          height: 18px;
+          border: unset;
+          margin: 0 0 2rem;
+      }
+      hr.little-span {
+          background: linear-gradient(90deg, #00de6c 0%, #06984b 100%), var(--GREEN-100, #00984b);
+          width: 216px;
+          height: 10px;
+          border: unset;
+          margin: 0 0 2rem;
+      }
+      form ul li h4 {
+          font-size:14px;
+          font-weight:500;
+          color:#fff;
+          margin:0;
+          padding:0;
+      }
+    a.hyperlink  img {
+    border-radius: 10px;
+    width: 100%;
+    HEIGHT: 193PX;
+    OBJECT-FIT: COVER;
+}
+      
+      .result_item {
+          gap: 20px;
+    display: flex
+;
+    flex-wrap: wrap;
+}
+.link-name,.link-name-r {
+        display:inline-block;
+}
+.link-name, .link-name-r:last-child {
+    color: #fff;
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.link-name a,
+.link-name-r a {
+    color:#fff;
+    text-decoration:none;
+    padding: 10px;
+    transition: all .3s ease-out;
+}
+
+.link-tabs .link-name:first-child {
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.link-tabs .link-name-r:last-child {
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.link-tabs .link-name-r:first-child {
+    color: #fff;
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link-name a:hover,
+.link-name-r a:hover{
+    font-size:32px;
+    padding: 10px;
+}

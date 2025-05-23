@@ -1,0 +1,368 @@
+[
+  {
+    "Branch": "Alfonso",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-alfonso@ucpbsavings.com",
+    "Address": "Mabini St. Corner Libertad St. Poblacion II, Alfonso Cavite"
+  },
+  {
+    "Branch": "Banaue (formerly Sta. Cruz)",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-banaue@ucpbsavings.com",
+    "Address": "Ground Floor PPSTA Dormitory Building, 245 Banaue St., Sto. Domingo, Quezon City"
+  },
+  {
+    "Branch": "Batac",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-batac@ucpbsavings.com",
+    "Address": "MC Building Washington Street Barangay Ablan Batac,  Ilocos Norte"
+  },
+  {
+    "Branch": "Candelaria Zambales",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-candelariazambales@ucpbsavings.com",
+    "Address": "LGU Commercial Bldg., Rubi cor Caballero Sts., Candelaria Town Proper, Candelaria, Zambales"
+  },
+  {
+    "Branch": "Kalayaan",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-kalayaan@ucpbsavings.com",
+    "Address": "106 Neptune Street, Kalayaan Avenue  Corner Makati Avenue, Makati City"
+  },
+  {
+    "Branch": "La Trinidad",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-latrinidad@ucpbsavings.com",
+    "Address": "JC 159 Central Pico, La Trinidad, Benguet"
+  },
+  {
+    "Branch": "Lingayen",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-lingayen@ucpbsavings.com",
+    "Address": "Corner Avenida Rizal & Artacho West Streets Lingayen Pangasinan"
+  },
+  {
+    "Branch": "Mabalacat",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-mabalacat@ucpbsavings.com",
+    "Address": "Kimaesha Bldg., Dau Mc-Arthur Highway,  Mabalacat City"
+  },
+    {
+    "Branch": "test email",
+    "Region": "test dev",
+    "emailAddress": "kenthomzhilay@gmail.com",
+    "Address": "test tgest"
+  },
+  {
+    "Branch": "Malolos",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-malolos@ucpbsavings.com",
+    "Address": "Paseo Del Congreso,  Catmon, Malolos, Bulacan"
+  },
+  {
+    "Branch": "Morong",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-morong@ucpbsavings.com",
+    "Address": "600 Tomas Claudio Street,  San Pedro Morong, Rizal"
+  },
+  {
+    "Branch": "Rizal Avenue",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-rizalavenue@ucpbsavings.com",
+    "Address": "Unit 201-203 Tan Han Chi Place 1558 Rizal Ave. corner Mayhaligue St. Sta. Cruz, Manila"
+  },
+  {
+    "Branch": "Sta. Ignacia",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-staignacia@ucpbsavings.com",
+    "Address": "Altandex Building beside Alta Gas Station Romulo Highway, Poblacion East, Sta. Ignacia, Tarlac"
+  },
+  {
+    "Branch": "Tanay",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-tanay@ucpbsavings.com",
+    "Address": "F.T Catapusan St., Plaza Aldea, Tanay, Rizal"
+  },
+  {
+    "Branch": "Tanza",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-tanza@ucpbsavings.com",
+    "Address": "007 A. Soriano Highway, Daang Amaya 1, Tanza, Cavite"
+  },
+  {
+    "Branch": "Bacnotan Branch Lite (formerly Pampanga LO)",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-bacnotan@ucpbsavings.com",
+    "Address": "267 Maharlika Highway Poblacion, Bacnotan, La Union"
+  },
+  {
+    "Branch": "Ilagan Branch Lite (formerly Ilagan LO)",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-ilagan@ucpbsavings.com",
+    "Address": "Ground Floor, Hipolito Building, Maharlika Highway, Calamagui 2nd City of Ilagan, Isabela 3300"
+  },
+  {
+    "Branch": "Orion Branch Lite (formerly Balanga LO)",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-orion@ucpbsavings.com",
+    "Address": "Stall No. 31 National Road, Brgy. Arellano, Orion, Bataan"
+  },
+  {
+    "Branch": "Rizal Nueva Ecija (formerly Cabanatuan LO)",
+    "Region": "Luzon 1",
+    "emailAddress": "usb-rizalnuevaecija@ucpbsavings.com",
+    "Address": "Quezon St., Poblacion Centro, Rizal, Nueva Ecija"
+  },
+  {
+    "Branch": "Alabang",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-alabang@ucpbsavings.com",
+    "Address": "Common Goal Tower Finance St. corner Industry St. Madrigal Business Park Alabang, Muntinlupa City"
+  },
+  {
+    "Branch": "Alaminos",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-alaminos@ucpbsavings.com",
+    "Address": "M. H. Del Pilar Street, Poblacion, Alaminos, Laguna"
+  },
+  {
+    "Branch": "Atimonan",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-atimonan@ucpbsavings.com",
+    "Address": "Quezon St. corner C.O. Reyes St. Brgy. Zone II,  Atimonan Quezon"
+  },
+  {
+    "Branch": "Calauag",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-calauag@ucpbsavings.com",
+    "Address": "Cantre St. Corner Bonifacio St. Brgy. 3 Calauag, Quezon"
+  },
+  {
+    "Branch": "Caramoan",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-caramoan@ucpbsavings.com",
+    "Address": "41 Real Street, Tawog Caramoan Camarines Sur"
+  },
+  {
+    "Branch": "Goa",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-goa@ucpbsavings.com",
+    "Address": "Rizal Street Cor. Panday St., Brgy. Poblacion,GOA, Camarines Sur"
+  },
+  {
+    "Branch": "Libmanan",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-libmanan@ucpbsavings.com",
+    "Address": "Bichara Arcade, T. Dilanco Street, Libod#1, Libmanan, Camarines Sur"
+  },
+  {
+    "Branch": "Lucban",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-lucban@ucpbsavings.com",
+    "Address": "Rizal Avenue corner San Luis Street, Brgy. 8, Lucban, Quezon"
+  },
+  {
+    "Branch": "Nagcarlan",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-nagcarlan@ucpbsavings.com",
+    "Address": "Golden Park Rentals and Wellness Bldg., Rizal  Ave. Poblacion 2, Nagcarlan, Laguna"
+  },
+  {
+    "Branch": "Pili",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-pili@ucpbsavings.com",
+    "Address": "National Highway, Brgy. Old San Roque,  Pili, Camarines Sur"
+  },
+  {
+    "Branch": "Puerto Princesa",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-puerto@ucpbsavings.com",
+    "Address": "AICON Plaza, National Highway, Bgy. San Pedro, Puerto Princesa City, Palawan"
+  },
+  {
+    "Branch": "Sablayan",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-sablayan@ucpbsavings.com",
+    "Address": "420 P. Urieta St., Brgy. Buenavista, Sablayan, Occidental Mindoro"
+  },
+  {
+    "Branch": "San Jose-Batangas (formerly San Mateo)",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-san jose batangas@ucpbsavings.com",
+    "Address": "Makalintal Ave. corner Dr. Ona St., San Jose, Batangas"
+  },
+  {
+    "Branch": "Sta. Rosa",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-Starosa@ucpbsavings.com",
+    "Address": "UCPB Building National Hi-Way Brgy. Balibago, Sta Rosa Laguna"
+  },
+  {
+    "Branch": "Tayabas",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-tayabas@ucpbsavings.com",
+    "Address": "64 Quezon Avenue (Tayabas-Lucban Road) cor M. Ponce  Street Brgy. San Diego Zone 1, City of Tayabas Quezon"
+  },
+  {
+    "Branch": "Tiaong",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-tiaong@ucpbsavings.com",
+    "Address": "Maharlika Highway corner San Antonio Road Poblacion 3, Tiaong, Quezon"
+  },
+  {
+    "Branch": "Daraga Branch Lite (formerly Albay LO)",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-daraga@ucpbsavings.com",
+    "Address": "Daraga Town Center, Bañag, Daraga, Albay"
+  },
+  {
+    "Branch": "Calapan Branch Lite (formerly Calapan LO)",
+    "Region": "Luzon 2",
+    "emailAddress": "usb-calapan@ucpbsavings.com",
+    "Address": "Ground Floor Halcon Heights Building Dama de Noche St., Lumang Bayan, Calapan City, Oriental Mindoro"
+  },
+  {
+    "Branch": "Bacolod",
+    "Region": "Visayas",
+    "emailAddress": "usb-bacolod@ucpbsavings.com",
+    "Address": "Ground Floor, San Antonio Park Square, Mandalangan  Bacolod City, Negros Occidental"
+  },
+  {
+    "Branch": "Borongan",
+    "Region": "Visayas",
+    "emailAddress": "usb-borongan@ucpbsavings.com",
+    "Address": "E. Cinco Street Borongan City, Eastern Samar"
+  },
+  {
+    "Branch": "Escalante",
+    "Region": "Visayas",
+    "emailAddress": "usb-escalante@ucpbsavings.com",
+    "Address": "Stall D-1, Puregold Bldg. North Ave Balintawak, Escalante City, Negros Occidental"
+  },
+  {
+    "Branch": "Iloilo",
+    "Region": "Visayas",
+    "emailAddress": "usb-iloilo@ucpbsavings.com",
+    "Address": "Angeles Arcade De Leon Street, Iloilo City"
+  },
+  {
+    "Branch": "La Castellana",
+    "Region": "Visayas",
+    "emailAddress": "usb-la castellana@ucpbsavings.com",
+    "Address": "Feria corner Bonifacio Street,  Brgy. Robles La Castellana, Negros Occidental"
+  },
+  {
+    "Branch": "Naga Cebu",
+    "Region": "Visayas",
+    "emailAddress": "usb-naga@ucpbsavings.com",
+    "Address": "E. Sayson St., Central Poblacion Naga City, Cebu"
+  },
+  {
+    "Branch": "Numancia",
+    "Region": "Visayas",
+    "emailAddress": "usb-numancia@ucpbsavings.com",
+    "Address": "R.P.V. Building, National Highway Brgy. Joyao-joyao, Numancia, Aklan"
+  },
+  {
+    "Branch": "Ormoc",
+    "Region": "Visayas",
+    "emailAddress": "usb-ormoc@ucpbsavings.com",
+    "Address": "G\\F HSSC Building Real Street, Ormoc City"
+  },
+  {
+    "Branch": "Sogod",
+    "Region": "Visayas",
+    "emailAddress": "usb-sogod@ucpbsavings.com",
+    "Address": "Osmeña Street, Brgy. Zone IV Sogod, Southern Leyte"
+  },
+  {
+    "Branch": "Tuburan",
+    "Region": "Visayas",
+    "emailAddress": "usb-tuburan@ucpbsavings.com",
+    "Address": "Tabotabo Street, Poblacion Tuburan, Cebu"
+  },
+  {
+    "Branch": "Gandara Branch Lite (formerly Calbayog LO)",
+    "Region": "Visayas",
+    "emailAddress": "usb-gandara@ucpbsavings.com",
+    "Address": "Maharlika Highway, Brgy. Adela Heights, Gandara, Samar"
+  },
+  {
+    "Branch": "San Jose Antique",
+    "Region": "Visayas",
+    "emailAddress": "usb-antiquelending@ucpbsavings.com",
+    "Address": "Gorund Floor , LASP Building Gov. Fullion St. San Jose de Buenavista, Antique"
+  },
+  {
+    "Branch": "Palo Branch Lite (formerly Tacloban LO)",
+    "Region": "Visayas",
+    "emailAddress": "usb-palo@ucpbsavings.com",
+    "Address": "Tacloban - Baybay Road, Brgy. Guindapunan,  Palo, Leyte"
+  },
+  {
+    "Branch": "Aloran",
+    "Region": "Mindanao",
+    "emailAddress": "usb-aloran@ucpbsavings.com",
+    "Address": "Jose Mutia Street, Brgy. Ospital Aloran, Misamis Occidental"
+  },
+  {
+    "Branch": "Bulua",
+    "Region": "Mindanao",
+    "emailAddress": "usb-bulua@ucpbsavings.com",
+    "Address": "G/F Forever Books Building, Zone 6  Bulua, Cagayan De Oro City, Misamis Oriental"
+  },
+  {
+    "Branch": "Cagayan de Oro",
+    "Region": "Mindanao",
+    "emailAddress": "usb-cdo@ucpbsavings.com",
+    "Address": "Capistrano-Cruz, Taal Streets,  Brgy 7, Cagayan de Oro City, Misamis Oriental"
+  },
+  {
+    "Branch": "Davao",
+    "Region": "Mindanao",
+    "emailAddress": "usb-davao@ucpbsavings.com",
+    "Address": "MK Central Bldg. J.P. Laurel Ave.  Bajada,Davao City"
+  },
+  {
+    "Branch": "Dipolog",
+    "Region": "Mindanao",
+    "emailAddress": "usb-dipolog@ucpbsavings.com",
+    "Address": "Quezon Avenue,  Miputak, Dipolog City, Zamboanga Del Norte"
+  },
+  {
+    "Branch": "Glan",
+    "Region": "Mindanao",
+    "emailAddress": "usb-glan@ucpbsavings.com",
+    "Address": "182-C enrique Yap Street, Poblacion Glan, Sarangani Province"
+  },
+  {
+    "Branch": "Lamitan",
+    "Region": "Mindanao",
+    "emailAddress": "usb-lamitan@ucpbsavings.com",
+    "Address": "Quezon Boulevard,  Brgy. Malakas,Lamitan, Basilan"
+  },
+  {
+    "Branch": "Sindangan (formerly Lapasan)",
+    "Region": "Mindanao",
+    "emailAddress": "usb-sindangan@ucpbsavings.com",
+    "Address": "Mabini Street, Brgy. Poblacion Sindangan, Zamboanga del Norte"
+  },
+  {
+    "Branch": "Tagum",
+    "Region": "Mindanao",
+    "emailAddress": "usb-tagum@ucpbsavings.com",
+    "Address": "Consuelo Business Center Units 9-12  Pioneer Ave., Magugpo South Tagum City"
+  },
+  {
+    "Branch": "Kabasalan Branch Lite (formerly Laguindingan LO)",
+    "Region": "Mindanao",
+    "emailAddress": "usb-kabasalan@ucpbsavings.com",
+    "Address": "Cainglet, Kabasalan, Zamboanga Sibugay"
+  },
+  {
+    "Branch": "Prosperidad Branch Lite (formerly Sindangan LO)",
+    "Region": "Mindanao",
+    "emailAddress": "usb-prosperidad@ucpbsavings.com",
+    "Address": "Purok 3, Patin-Ay, Prosperidad, Agusan del Sur"
+  }
+]

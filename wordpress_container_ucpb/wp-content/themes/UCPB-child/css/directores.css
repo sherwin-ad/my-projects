@@ -1,0 +1,102 @@
+/* tabs section */
+.tabs-container {
+  width: 100%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  margin-top: 4rem;
+}
+
+.tabs-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  flex-wrap:wrap;
+}
+.news_and_event_btn a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Adjust space between text and icon */
+  text-decoration: none;
+  color: white;
+}
+
+.news_and_event_btn svg {
+  width: 24px;
+  height: 24px;
+}
+.tabs-menu .tab {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: none;
+  color: var(--gray);
+  transition: background 0.3s ease;
+}
+
+.tabs-menu .tab.active {
+  background: var(--white);
+  font-weight: bold;
+  color: var(--secondary);
+  border-bottom: 3px solid var(--secondary);
+}
+
+.tabs-content {
+  border-top: none;
+  padding: 20px 0;
+  background: #fff;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.option-list img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.option-list .column-grp > div {
+  margin-top: 40px;
+}
+.option-list h2,
+.option-list h3 {
+  margin: 5px 0;
+}
+.option-list h3 {
+  font-size: 20px;
+}
+.board-directors .column-grp,
+.senior-management .column-grp {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.board-directors h3,
+.senior-management h3 {
+  font-size: 22px;
+  color: var(--DARK-BLUE-100, #15102e);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  margin: 0;
+}
+h2.board-directors-title,
+h2.senior-management-title {
+  text-align: center;
+}
+.orc-btn {
+  margin: 3rem 0;
+}
